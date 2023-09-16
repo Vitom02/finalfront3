@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.favButton{
+  background-color: #f7a18c;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+}
+
+h1{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+a:hover{
+  color: rgb(136, 136, 136);
+} 
+
+.footer {
+  display: flex;
+  text-align: center;
+  padding: 2rem;
+  bottom: 0;
+  height: 40px;
+  background: rgb(92, 103, 252);
+  width: 100%;
+}
+
+footer > img{
+  width: 200px;
+  margin: 0;
+}
+footer > p{
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  border: 0.5px solid rgb(65, 1, 85);
+  border-radius: 20px;
+}
+
+.card:hover{
+  border: 0.5px solid rgb(206, 217, 142);
+}
+
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 70vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+table {
+ border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dark{
+  background-color: #12121296;
+  color: white;
+}
+.dark > a {
+  color: white;
+}
+
+.container{
+  background-color: #f3a591;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li{
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+}
+form {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Estilo para los campos de entrada */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+.contacto{
+margin-left: 700px;
+align-items: center;
+justify-content: space-between;
+align-items: center;
+}
+
+.main-light{
+  background-color: #ffffff;
+  color: #000000;
+}
+.card-grid-light {
+
+  color: #ffffff;
+}
+.main-dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+.card-grid-dark {
+  background-color: #ffffff;
+  color: #000000;
+}
